@@ -25,7 +25,6 @@ import javax.swing.event.ListSelectionListener;
 import main.CreateNewDeptDialog.TIPO_EDICION;
 import modelo.Departamento;
 import modelo.exceptions.DuplicateInstanceException;
-import modelo.exceptions.InstanceNotFoundException;
 import modelo.servicio.departamento.IServicioDepartamento;
 import modelo.servicio.departamento.ServicioDepartamento;
 
