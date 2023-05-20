@@ -234,7 +234,7 @@ public class DeptWindow extends JFrame {
 					if (oid == -1) {
 						addMensaje(true, "No se ha creado correctamete el departamento");
 					} else {
-						addMensaje(true, " El departamento no se ha creado correctamente");
+						addMensaje(true, "El departamento  se ha creado correctamente");
 					}
 				} catch (DuplicateInstanceException die) {
 					addMensaje(true, "Ya existe un departamento con ese id. No se ha podido crear.");
@@ -248,7 +248,7 @@ public class DeptWindow extends JFrame {
 					if (!exito) {
 						addMensaje(true, "No se ha editado correctamete el departamento");
 					} else {
-						addMensaje(true, " El departamento no se ha actualizado correctamente");
+						addMensaje(true, "El departamento se ha actualizado correctamente");
 					}
 
 				} catch (Exception ex) {
